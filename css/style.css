@@ -5,7 +5,7 @@
  */
 
 body {
-  width: 896px;
+  width: 95%;
   margin: 0 auto;
   padding: 56px 48px 84px;
   background:#efefef;
@@ -56,7 +56,32 @@ nav a:hover {
 		padding: 0 24px 0;
 		margin: 28px;
 	}
+
+	header object { /* logo */
+	width: 100%;
+	height: 200px;
 }
+}
+
+@media (max-width: 480px) {
+	body{
+		background-color: green;
+}
+	nav a{
+		float: left;
+	}
+
+	header{ 
+		display: inline;
+	}
+
+	header object { /* logo */
+	width: 50%;
+	height: 150px;
+	float: left;
+}
+}
+
 
 
 /* Tablet Layout: 768px.
